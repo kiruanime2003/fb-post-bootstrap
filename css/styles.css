@@ -1,1 +1,22 @@
-/*# sourceMappingURL=styles.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#box {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+@media screen and (min-width: 335px) {
+  #box {
+    width: 430px;
+  }
+}
+@media screen and (max-width: 461px) {
+  #box {
+    width: 90vw;
+  }
+}/*# sourceMappingURL=styles.css.map */
